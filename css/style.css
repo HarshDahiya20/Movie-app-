@@ -1,0 +1,159 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background:  url("../images/imgi_46_IN-en-20251201-TRIFECTA-perspective_c7623e8e-c406-43d2-9d9a-0140ce19ac84_small.jpg" ) center no-repeat ;
+  background-attachment: fixed;
+}
+.bodyOverly{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.627);
+}
+header{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.64);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+}
+.headerleft{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.headerleft>figure>img{
+  width: 200px;
+}
+.headerleft>ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.headerleft>ul>li>a{
+  color: white;
+  font-size: 18px;
+  padding: 3px;
+  font-weight: bold;
+}
+.headerleft>ul>li>a:hover{
+  border-bottom: 1px solid white;
+}
+.headerright{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+.searchbar{
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.searchbar>button{
+  background-color: transparent;
+  border: none;
+}
+.searchbar>input{
+  font-size: 16px;
+  padding: 0px 10px;
+  border: none;
+}
+select{
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+.headerright>button{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+section{
+  width: 100%;
+  padding:150px 50px 70px 50px;
+
+}
+.movieSection{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 50px;
+
+}
+.movieitems{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.559);
+}
+.movieitems:hover{
+  box-shadow: 0px 0px 5px 4px rgba(244, 3, 3, 0.444);
+}
+.movieitems>figure{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+.movieitems>figure>img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.rating{
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.679);
+  padding: 10px 15px;
+  border-radius: 18px;
+}
+
+.rating>i{
+  color: gold;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.moviecontent{
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.871);
+  border-radius: 0px 0px 10px 10px;
+}
+.moviecontent>h3{
+  font-size:15px ;
+  margin-bottom: 10px;
+}
+footer{
+  padding: 0px 80px 100px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+footer>button{
+  padding: 12px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+footer>button:hover{
+  box-shadow: 0px 0px 5px 4px rgba(244, 3, 3, 0.542);
+}

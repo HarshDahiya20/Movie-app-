@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bodyOverly">
+    <header>
+      <div class="headerleft">
+        <figure>
+          <img src="images/imgi_2_Netflix_Logo_PMS.png" alt="">
+        </figure>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shows</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">Popular</a></li>
+        </ul>
+      </div>
+      <div class="headerright">
+        <div class="searchbar">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          
+          <input type="text" onkeyup="getMovies(this.value)" placeholder="search movie">
+        </div>
+        <select name="" id="">
+          <option>English</option>
+          <option>Hindi</option>
+        </select>
+        <button>Sign In</button>
+      </div>
+    </header>
+    <section>
+      <div class="movieSection">
+          
+      </div>
+    </section>
+    <footer>
+      <button onclick="previewMoviedata()">Preview</button>
+      <button onclick="nextMoviedata()">Next</button>
+    </footer>
+  </div>
+</body>
+<script src="js/app.js"></script>
+</html>
