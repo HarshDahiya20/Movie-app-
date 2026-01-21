@@ -1,0 +1,47 @@
+@media only screen and (min-width: 200px) and (max-width: 567px){
+    
+    header{
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+    .headerleft>figure>img{
+      width: 150px;
+    }
+    .headerleft ul{
+      display: none;
+    }
+    .headerright select{
+      display: none;
+    }
+    .headerright>button{
+      display: none;
+    }
+    
+    section{
+      padding:150px 30px 70px 30px;
+
+    }
+    .movieSection{
+      grid-template-columns: repeat(1,1fr);
+
+    }
+    footer{
+      padding: 0px 80px 80px 80px;
+    }
+} 
+
+@media only screen and (min-width: 567px) and (max-width: 768px){
+    
+  .headerleft ul{
+      display: none;
+    }
+    .headerright select{
+      display: none;
+    }
+  .movieSection{
+      grid-template-columns: repeat(2,1fr);
+
+    }
+
+} 
